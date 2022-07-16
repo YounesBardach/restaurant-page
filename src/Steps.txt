@@ -1,0 +1,17 @@
+Create json: npm init -y or npm in
+
+Make package private, add webpack shortcut, dev server script (npm start to start server),
+watch mode (npm run watch) in json
+
+Create scripts (in src/), src/ and dis
+
+Install webpack: npm install webpack webpack-cli --save-dev
+Install htmlwebpackplugin: npm install --save-dev html-webpack-plugin
+Install webpack dev server: npm install --save-dev webpack-dev-server
+Install css loader: npm install --save-dev style-loader css-loader
+Install Favicons Webpack Plugin: npm install --save-dev favicons favicons-webpack-plugin
+
+Create webpack.config.js (with inline dev source map, dev server, output management,
+HtmlWebpackPlugin, favicon plugin, dist cleaning, multi entry point optimization)
+
+To be updated after learning promises...

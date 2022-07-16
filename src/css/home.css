@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "Italianno";
+  src: url("../fonts/Italianno-Regular-OTF.otf");
+}
+
+:root {
+  font-family: system-ui;
+  /* (62.5/100) * 16px = 10px */
+  font-size: 62.5%;
+  /* 14px */
+  --font-size-small: 1.4rem;
+  /* 16px */
+  --font-size-default: 1.6rem;
+  /* 24px */
+  --font-size-large: 2.4rem;
+}
+
+body {
+  font-size: var(--font-size-default);
+  overflow-wrap: break-word;
+  min-height: 100vh;
+}
+
+#content {
+  font-family: "Italianno";
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+}
+
+.logo {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 200px 0fr 100px;
+  background-image: url(../img/logo-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.pizlogo {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/pizlogo.png);
+  border-radius: 50%;
+  background-color: green;
+  height: 95%;
+  width: 55%;
+  opacity: 0.9;
+  min-width: 185px;
+}
+
+.redop-bg {
+  padding: 1rem;
+  background-color: #ff4400c0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+.green-h1 {
+  color: #052605;
+  font-size: 6rem;
+}
+
+.about {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.center-bt {
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: green;
+  border-radius: 20%;
+  border: none;
+  padding: 0.5rem;
+}
+
+.center-bt:active {
+  box-shadow: inset 1px 2px 5px black;
+  transform: translateX(1px) translateY(1px);
+  background-color: green;
+}
+
+.present {
+  display: grid;
+}
+
+.first-half {
+  display: grid;
+  grid-template-rows: 0fr 3fr;
+}
+
+.navbar {
+  display: flex;
+  background-color: green;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.flexbar-one,
+.flexbar-two {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.no-style-link{
+text-decoration: none;
+color: inherit;
+}
+
+.flexbar-one {
+  width: 70%;
+  justify-content: space-between;
+  font-size: 4rem;
+}
+
+.flexbar-two {
+  width: 30%;
+  justify-content: flex-end;
+}
+
+.white-hover:hover {
+  color: white;
+}
+
+.flour {
+  background-image: url(../img/flour.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu-star {
+  gap: 1rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-image: url(../img/wood-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.describ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.big-text {
+  font-size: 6rem;
+  color: red;
+}
+
+.pizza {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/pizza-star.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
