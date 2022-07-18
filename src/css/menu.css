@@ -13,6 +13,9 @@
   --font-size-default: 1.6rem;
   /* 24px */
   --font-size-large: 2.4rem;
+
+  overflow-y:scroll;
+
 }
 
 body {
@@ -200,3 +203,6 @@ body {
   background-color: white;
 }
 
+.surligne{
+  text-decoration: underline;
+}

@@ -120,9 +120,9 @@ body {
   gap: 1rem;
 }
 
-.no-style-link{
-text-decoration: none;
-color: inherit;
+.no-style-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 .flexbar-one {
@@ -174,9 +174,13 @@ color: inherit;
 
 .pizza {
   height: 100%;
-  width: 100%;
+  width: 90%;
   background-image: url(../img/pizza-star.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.surligne{
+  text-decoration: underline;
 }
