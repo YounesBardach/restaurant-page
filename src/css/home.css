@@ -17,7 +17,6 @@
 
 body {
   font-size: var(--font-size-default);
-  overflow-wrap: break-word;
   min-height: 100vh;
 }
 
@@ -95,7 +94,6 @@ body {
 .center-bt:active {
   box-shadow: inset 1px 2px 5px black;
   transform: translateX(1px) translateY(1px);
-  background-color: green;
 }
 
 .present {

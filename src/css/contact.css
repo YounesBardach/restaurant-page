@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Italianno";
+  src: url("../fonts/Italianno-Regular-OTF.otf");
+}
+
+:root {
+  font-family: system-ui;
+  /* (62.5/100) * 16px = 10px */
+  font-size: 62.5%;
+  /* 14px */
+  --font-size-small: 1.4rem;
+  /* 16px */
+  --font-size-default: 1.6rem;
+  /* 24px */
+  --font-size-large: 2.4rem;
+}
+
+body {
+  font-size: var(--font-size-default);
+  min-height: 100vh;
+}
+
+.contact-content {
+  font-family: "Italianno";
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  background-image: url("../img/contact-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.contact-us {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-cont {
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.label-size {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background-color: rgba(0, 128, 0, 0.76);
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+#text,
+#email,
+#message {
+  font-size: 3rem;
+  border: none;
+  border-bottom: 2px dashed orangered;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#message {
+  height: 150px;
+}
+
+.red-label{
+  background-color: #ff4400e3;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.send-bt {
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: #ff4400e3;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.send-bt:active {
+  box-shadow: inset 1px 2px 5px black;
+  transform: translateX(1px) translateY(1px);
+}
+
+.no-pad {
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: green;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.flexbar-one,
+.flexbar-two {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.no-style-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flexbar-one {
+  width: 70%;
+  justify-content: space-between;
+  font-size: 4rem;
+}
+
+.flexbar-two {
+  width: 30%;
+  justify-content: flex-end;
+}
+
+.white-hover:hover {
+  color: white;
+}
+
+.contact {
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: 245px 306px;
+  justify-items: end;
+}
+
+.address {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.red-address {
+  border-radius: 5px;
+  background-color: #ff4500c2;
+  width: 80%;
+}
+
+.map {
+  border-radius: 5px;
+  height: 300px;
+  width: 80%;
+  background-color: white;
+  grid-row: 2;
+  background-image: url(../img/map.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
